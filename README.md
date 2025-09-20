@@ -57,7 +57,13 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 
 ***2.1. Requisitos Funcionais***
 
-*<Link, imagem, arquivo com os requisitos funcionais.>*
+| **Identificador** | **Descrição**                                                                 | **Prioridade** | **Depende de** |
+| ----------------- | ----------------------------------------------------------------------------- | -------------- | -------------- |
+| RF001             | O sistema deve permitir o cadastro de novos usuários com nome, email e senha. | Alta           | Nenhuma        |
+| RF002             | O sistema deve permitir o login de usuários cadastrados.                      | Alta           | RF001          |
+| RF003             | O sistema deve permitir a alteração dos dados cadastrais do usuário.          | Média          | RF001          |
+| RF004             | O sistema deve gerar relatórios mensais de vendas.                            | Baixa          | Nenhuma        |
+
 
 ***2.2. Requisitos Não Funcionais***
 
